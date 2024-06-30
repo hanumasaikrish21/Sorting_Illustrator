@@ -3,10 +3,9 @@ body {
     font-size: 20px;
     padding: 0 20px 30px 0;
     line-height: 1.4;
-    background-color: #322837;
+    background-color:#322837;
 }
-
-.flex-container {
+.flex-container{
     margin-top: 20px;
     display: flex;
     flex-wrap: nowrap;
@@ -16,19 +15,19 @@ body {
     transition: 2s all ease;
 }
 
-.flex-item {
+.flex-item{
     background: rgb(93, 229, 159);
     border: 1pt solid rgb(0, 0, 0);
     width: 20px;
     transition: 0.1s all ease;
 }
 
-.row {
+.row{
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
 }
 
-#input {
+#input{
     display: flex;
     padding: 10px;
     justify-content: space-around;
